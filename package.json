@@ -1,0 +1,28 @@
+{
+    "name": "fe-assignment",
+    "version": "1.0.0",
+    "description": "Be sure to read **all** of this document carefully, and follow the guidelines within.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/antonioOrtiz/fe-assignment.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/antonioOrtiz/fe-assignment/issues"
+    },
+    "homepage": "https://github.com/antonioOrtiz/fe-assignment#readme",
+    "dependencies": {
+        "next": "^9.4.4",
+        "node-sass": "^4.14.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
+}
