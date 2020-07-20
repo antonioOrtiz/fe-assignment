@@ -143,6 +143,10 @@ export default function ApplianceCard({
 
 Aside from the baked in optimizations which Next.js provides on build (code splitting, SEO) I'd see what optimizations could be gained with the platform I hosted the page on; [Netifly plugins](https://app.netlify.com/teams/antonioortiz/plugins) i.e. Lighthouse auditing, Image Optim, Inline source.
 
+## Start the application
+
+Run `npm install && npm run dev`
+
 # AJ Madison Front-end Engineer Coding Test
 
 Be sure to read **all** of this document carefully, and follow the guidelines within.
