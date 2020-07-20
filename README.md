@@ -1,10 +1,10 @@
 ## App Design
 
-Essentially I used [Next.js](https://nextjs.org/) (the only offical frameweok) and CSS Grid (check its support on your browser [here.](https://caniuse.com/#feat=css-grid])
+Essentially I used [Next.js](https://nextjs.org/) (the only offical frameweok) and CSS Grid (check its support for your browser [here.](https://caniuse.com/#feat=css-grid])
 
 At a high level I am making a axios request to the AJMadison API `https://demo3211013.mockable.io/ajmad`
 
-in my root component: and then passing down the data to the Main component called `Appliance Package`
+in my root component and then passing down the data to the Main component called `Appliance Package` via props.
 
 ```
 // components/AppliancePackage
@@ -15,9 +15,7 @@ export default function AppliancePackage({ appliances }) {
 
   return (
     <>
-
-      <div
-        className="container">
+      <div className="container">
 
         <h1>AppliancePackages</h1>
         <p>
@@ -59,7 +57,6 @@ export default HomePage;
 // direct database queries. See the "Technical details" section.
 
 export async function getStaticProps() {
-
 
   var res = await axios.get('https://demo3211013.mockable.io/ajmad');
   var res = JSON.parse(JSON.stringify(res.data));
