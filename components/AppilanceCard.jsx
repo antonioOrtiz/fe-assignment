@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext } from 'react';
+import { useState } from 'react';
 
 export default function ApplianceCard({
   brand,
@@ -21,7 +21,6 @@ export default function ApplianceCard({
   var { instant_amount, mailin_amount } = rebates;
   var { filename, folder, extension, original_filename } = image;
 
-  /* https://assets.ajmadison.com/[image->folder]/[image->filename].jpg  */
   return (
     <>
       <div className="card">
